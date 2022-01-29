@@ -1,0 +1,19 @@
+
+
+.blog-post {
+    background-color: #bca697;
+    padding: 2.5% 2.5%;
+    margin: 2% 0 2% 4%;
+    border-radius: 10px;
+    color: #5a5956;
+    max-width: 800px;
+}
+
+.blog-post h3 {
+    color: rgb(31, 31, 31);
+}
+
+.post-container h2 {
+    color: rgb(227, 79, 0);
+}
+
