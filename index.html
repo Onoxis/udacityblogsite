@@ -19,7 +19,7 @@
             <ul>
                 <li><a class="current-page" href=#>Home</a></li>
                 <li><a href="latest.html">Lastest Post</a></li>
-                <li><a href=contact.html>Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
     </header>
@@ -31,7 +31,11 @@
                 <h2>Janurary 2022</h2>
                 <article class="blog-post">
                     <h3>McWay Falls - Big Sur - California</h3>
-                    <h4>Jan 22nd</h4>
+                    <h4><img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-512.png" alt="calendar image">
+                        <!-- The requirement asked for buttons to be used on the blog post. I nested a a tag to accomplish this without JS.
+                        Typically for "buttons" I would style the <a> tag.  -->
+                        <button><a href="latest.html"> Jan 22nd</a></button>
+                    </h4>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel imperdiet eros. 
                         Aliquam at ligula tempus, malesuada erat eget, aliquet augue. Sed luctus feugiat sem, 
                         non semper sem porttitor sed. Etiam viverra, turpis vitae viverra scelerisque, magna 
@@ -41,7 +45,9 @@
                 </article>
                 <article class="blog-post">
                     <h3>Bee Hive Trail - Acadia National Park - Maine</h3>
-                    <h4>Jan 16th</h4>
+                    <h4><img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-512.png" alt="calendar image">
+                        <button><a href="#"> Jan 16th</a></button>
+                    </h4>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel imperdiet eros. 
                         Aliquam at ligula tempus, malesuada erat eget, aliquet augue. Sed luctus feugiat sem, 
                         non semper sem porttitor sed. Etiam viverra, turpis vitae viverra scelerisque, magna 
@@ -52,7 +58,9 @@
                 <h2>December 2021</h2>
                 <article class="blog-post">
                     <h3>Spruce Trail - Olympic National Park - Washington</h3>
-                    <h4>Jan 8th</h4>
+                    <h4><img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-512.png" alt="calendar image">
+                        <button><a href="#"> Dec 21th</a></button>
+                    </h4>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel imperdiet eros. 
                         Aliquam at ligula tempus, malesuada erat eget, aliquet augue. Sed luctus feugiat sem, 
                         non semper sem porttitor sed. Etiam viverra, turpis vitae viverra scelerisque, magna 
@@ -61,8 +69,10 @@
                         venenatis ante, vitae dapibus sem sem non ex. Vivamus scelerisque molestie velit a vestibulum.</p>
                 </article>
                 <article class="blog-post">
-                    <h3>Bee Hive Trail - Acadia National Park</h3>
-                    <h4>Jan 16th</h4>
+                    <h3>Vizcaya Museum & Gardens - Miami Gardens - Florida</h3>
+                    <h4><img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-512.png" alt="calendar image">
+                        <button><a href="#"> Dec 9th</a></button>
+                    </h4>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel imperdiet eros. 
                         Aliquam at ligula tempus, malesuada erat eget, aliquet augue. Sed luctus feugiat sem, 
                         non semper sem porttitor sed. Etiam viverra, turpis vitae viverra scelerisque, magna 
@@ -71,15 +81,26 @@
                         venenatis ante, vitae dapibus sem sem non ex. Vivamus scelerisque molestie velit a vestibulum.</p>
                 </article>
             </div>
-            
-            <aside>
-                <h3>Will's Profile Bio</h3>
-            </aside>
         </div>
     </main>
-
+        <aside class="bio-section">
+            <img id="bio-photo" src="profile.pic.jpg" alt="will profile">
+            <p id="bio-fact"> "I love to travel, eat good food, drink bourbon, and explore new places. This is a blog to share some of the cool places I've been lucky to visit." 
+            <br><br><span> Author: Will Lancaster <br> Role: System Administrator | Actalent</span></p>
+        </aside>
     <footer>
-        <p>Adventures of Will &#169; 2022</p>
+        <div class="socials">
+            <a target="_blank" href="https://twitter.com">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png" alt="twitter link">
+            </a>
+            <a target="_blank" href="https://facebook.com">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook2_colored_svg-512.png" alt="facebook link">
+            </a>
+            <a target="_blank" href="https://linkedin.com">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png" alt="linkedin link">
+            </a>
+        </div>
+        <p>Travel Blog | Will's Favorite Places Blog &#169; 2022</p>
     </footer>
 </body>
 </html>
